@@ -1,0 +1,99 @@
+h1 {
+  font-family: 'Muli', sans-serif;
+  line-height: normal;
+  font-size: 31px;
+  color: #3D5A6C;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-size: 22px;
+  line-height: normal;
+  color: #433A3F;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 21px;
+  margin: 5px
+}
+
+body {
+  background-color: #e8e8e8
+}
+
+.container{
+  padding: 20px;
+  width: 60%;   /* This sets the width */
+  margin: 0px auto; /* This automatically sets left/right margins */
+}
+
+.card_white {
+  background: white;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 10px 10px 20px #b1b1b1;
+  border-radius: 4px;
+}
+
+.profile_pic{
+  height: 150px;
+  border-radius: 125px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.banner_pics{
+  height: 150px;
+  border-radius: 4px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button_teal{
+  font-family: 'Crimson Text', serif;
+  background-color: #72A98F;
+  padding: 10px 30px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.social_links_small{
+  padding: 4px;
+  font-size: 36px;
+  color: #3D5A6C;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
